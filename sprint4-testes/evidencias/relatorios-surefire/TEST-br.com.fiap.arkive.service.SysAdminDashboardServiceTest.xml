@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.SysAdminDashboardServiceTest" time="0.05" tests="6" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="construtorDeProducaoEhExplicitoParaInjecaoSpring" classname="br.com.fiap.arkive.service.SysAdminDashboardServiceTest" time="0.002" />
+  <testcase name="agregaConsultasPorStatusComRotulosAmigaveis" classname="br.com.fiap.arkive.service.SysAdminDashboardServiceTest" time="0.04" />
+  <testcase name="agregaUsuariosPorPerfilComPerfisSemDadosZerados" classname="br.com.fiap.arkive.service.SysAdminDashboardServiceTest" time="0.002" />
+  <testcase name="carregaContadoresAtivosEConsultasDosUltimos30Dias" classname="br.com.fiap.arkive.service.SysAdminDashboardServiceTest" time="0.002" />
+  <testcase name="geraSeisMesesComLacunasPreenchidasComZero" classname="br.com.fiap.arkive.service.SysAdminDashboardServiceTest" time="0.002" />
+  <testcase name="agregaAnimaisAtivosPorEspecie" classname="br.com.fiap.arkive.service.SysAdminDashboardServiceTest" time="0.001" />
+</testsuite>

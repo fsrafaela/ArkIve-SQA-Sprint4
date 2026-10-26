@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.AnimalResponsavelServiceTest" time="0.134" tests="11" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="veterinarioNaoAcessaNemModificaPacienteAlheio" classname="br.com.fiap.arkive.service.AnimalResponsavelServiceTest" time="0.01" />
+  <testcase name="zeroTutoresEhValido" classname="br.com.fiap.arkive.service.AnimalResponsavelServiceTest" time="0.007" />
+  <testcase name="listaAtivosIgnoraVinculosFuturosEExpirados" classname="br.com.fiap.arkive.service.AnimalResponsavelServiceTest" time="0.002" />
+  <testcase name="responsavelLeSeusVinculosMasNaoConcedeAcesso" classname="br.com.fiap.arkive.service.AnimalResponsavelServiceTest" time="0.004" />
+  <testcase name="veterinarioCadastranteSemClinicaPodeVincularEListar" classname="br.com.fiap.arkive.service.AnimalResponsavelServiceTest" time="0.003" />
+  <testcase name="tutorInativoNaoPodeSerVinculado" classname="br.com.fiap.arkive.service.AnimalResponsavelServiceTest" time="0.002" />
+  <testcase name="sysadminEAdminDaClinicaPodemGerenciar" classname="br.com.fiap.arkive.service.AnimalResponsavelServiceTest" time="0.002" />
+  <testcase name="novoPrincipalRebaixaAnteriorDentroDaTransacao" classname="br.com.fiap.arkive.service.AnimalResponsavelServiceTest" time="0.014" />
+  <testcase name="veterinarioPodeEncerrarERemoverVinculo" classname="br.com.fiap.arkive.service.AnimalResponsavelServiceTest" time="0.002" />
+  <testcase name="atualizacaoPrincipalTambemRebaixaAnterior" classname="br.com.fiap.arkive.service.AnimalResponsavelServiceTest" time="0.001" />
+  <testcase name="vetEAdminPrecisamAnimalNaListagemGeral" classname="br.com.fiap.arkive.service.AnimalResponsavelServiceTest" time="0.001" />
+</testsuite>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.227" tests="39" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="sysadminCriaAnimalGlobalmente" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.104" />
+  <testcase name="adminClinicaAtualizaSomenteAnimalDaPropriaClinicaENaoMoveClinica" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.006" />
+  <testcase name="veterinarioSemClinicaNaoInformaClinicaNoRequest" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.002" />
+  <testcase name="veterinarioNaoForcaCriacaoEmOutraClinica" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.002" />
+  <testcase name="responsavelVinculadoRegistraConsultaELimpaObservacaoPendente" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.007" />
+  <testcase name="adminClinicaExcluiAnimalDaPropriaClinica" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.003" />
+  <testcase name="adminClinicaComFiltroConflitanteRecebeListaVazia" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.002" />
+  <testcase name="responsavelSemVinculoNaoAtualizaAnimalNemPorConhecerId" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.003" />
+  <testcase name="sysadminExcluiAnimalGlobalmente" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.002" />
+  <testcase name="responsavelVinculadoNaoAlteraClinicaOuStatus" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.004" />
+  <testcase name="responsavelVinculadoAtualizaDadosBasicosSemAlterarCamposControlados" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.002" />
+  <testcase name="nascimentoFuturoRejeitadoNaCriacaoEAtualizacao" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.003" />
+  <testcase name="veterinarioListaSomenteAnimaisComConsultasProprias" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.002" />
+  <testcase name="veterinarioNaoAtualizaAnimalDeOutraClinica" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.003" />
+  <testcase name="veterinarioNaoMoveAnimalParaOutraClinicaNemAlteraStatus" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.003" />
+  <testcase name="veterinarioListaPacientesAtivosDaPropriaClinicaSemConsultaPrevia" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.003" />
+  <testcase name="veterinarioSemClinicaCriaAnimalCliniclessComCadastroProprio" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.002" />
+  <testcase name="veterinarioCriaAnimalNaPropriaClinicaSemClinicaNoRequest" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.002" />
+  <testcase name="racaDeOutraEspecieContinuaRejeitada" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.005" />
+  <testcase name="falhaAoSalvarVinculoPropagaParaRollbackDaCriacaoTransacional" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.004" />
+  <testcase name="permiteAnimaisAtivosComMesmoNome" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.002" />
+  <testcase name="adminClinicaNaoAtualizaOuExcluiAnimalDeOutraClinica" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.004" />
+  <testcase name="veterinarioDeOutraClinicaUsaSomenteOProprioEscopoDeClinica" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.002" />
+  <testcase name="responsavelNaoPodeForcarClinicaOuStatusAoCriar" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.003" />
+  <testcase name="responsavelListaSomenteAnimaisVinculados" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.002" />
+  <testcase name="sysadminAtualizaAnimalGlobalmente" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.002" />
+  <testcase name="responsavelCriaAnimalAtivoSemClinicaComVinculoPrincipal" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.003" />
+  <testcase name="nascimentoOpcionalValidoNaCriacaoEAtualizacao(String)[1]" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.002" />
+  <testcase name="nascimentoOpcionalValidoNaCriacaoEAtualizacao(String)[2]" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.003" />
+  <testcase name="nascimentoOpcionalValidoNaCriacaoEAtualizacao(String)[3]" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.002" />
+  <testcase name="adminClinicaCriaSomenteNaPropriaClinica" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.003" />
+  <testcase name="veterinariosDaMesmaClinicaUsamOMesmoEscopoDePacientesDaClinica" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.001" />
+  <testcase name="veterinarioAtualizaDadosBasicosDoAnimalAtivoDaPropriaClinica" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.002" />
+  <testcase name="sobrecargasGenericasDeEscritaExigemPrincipal" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.003" />
+  <testcase name="veterinarioNaoCriaAnimalInativo" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.002" />
+  <testcase name="veterinarioNaoDesativaAnimal" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.002" />
+  <testcase name="responsavelNaoVinculadoNaoLeNemEditaObservacaoPendente" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.003" />
+  <testcase name="meusPacientesDoVeterinarioUsaEscopoAtivoSemExigirClinica" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.003" />
+  <testcase name="buscaAnimalPorIdExigeAcessoAoRecurso" classname="br.com.fiap.arkive.service.AnimalServiceAuthorizationTest" time="0.002" />
+</testsuite>

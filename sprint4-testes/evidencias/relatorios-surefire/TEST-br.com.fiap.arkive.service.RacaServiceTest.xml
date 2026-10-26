@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.RacaServiceTest" time="0.058" tests="9" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="conflitoConcorrenteRetornaErroSeguro" classname="br.com.fiap.arkive.service.RacaServiceTest" time="0.002" />
+  <testcase name="atualizarMesmoNomeNaoSeConsideraDuplicata" classname="br.com.fiap.arkive.service.RacaServiceTest" time="0.002" />
+  <testcase name="rejeitaNomeInvalido(String)[1]" classname="br.com.fiap.arkive.service.RacaServiceTest" time="0.001" />
+  <testcase name="rejeitaNomeInvalido(String)[2]" classname="br.com.fiap.arkive.service.RacaServiceTest" time="0.001" />
+  <testcase name="rejeitaNomeInvalido(String)[3]" classname="br.com.fiap.arkive.service.RacaServiceTest" time="0.001" />
+  <testcase name="rejeitaNomeInvalido(String)[4]" classname="br.com.fiap.arkive.service.RacaServiceTest" time="0.001" />
+  <testcase name="duplicataNaMesmaEspecieRetornaConflito" classname="br.com.fiap.arkive.service.RacaServiceTest" time="0.001" />
+  <testcase name="rejeitaEspecieNulaInexistenteOuInativa" classname="br.com.fiap.arkive.service.RacaServiceTest" time="0.001" />
+  <testcase name="normalizaNomeEPorteOpcional" classname="br.com.fiap.arkive.service.RacaServiceTest" time="0.001" />
+</testsuite>

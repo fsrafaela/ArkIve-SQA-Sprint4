@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.AdesaoPrescricaoServiceTest" time="0.345" tests="13" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="leituraPorIdValidaEscopoDaAdesao" classname="br.com.fiap.arkive.service.AdesaoPrescricaoServiceTest" time="0.275" />
+  <testcase name="listagemDeResponsavelMantemPrivacidadeDoResponsavelAutenticado" classname="br.com.fiap.arkive.service.AdesaoPrescricaoServiceTest" time="0.023" />
+  <testcase name="timestampDoClienteNaoExisteNoDtoPublicoENaoControlaPersistencia" classname="br.com.fiap.arkive.service.AdesaoPrescricaoServiceTest" time="0.007" />
+  <testcase name="veterinarioAdminClinicaESysadminPossuemLeiturasEscopadas" classname="br.com.fiap.arkive.service.AdesaoPrescricaoServiceTest" time="0.004" />
+  <testcase name="atualizacaoEExclusaoPublicasSaoDesabilitadas" classname="br.com.fiap.arkive.service.AdesaoPrescricaoServiceTest" time="0.005" />
+  <testcase name="sobrecargaGenericaDeCriacaoExigePrincipal" classname="br.com.fiap.arkive.service.AdesaoPrescricaoServiceTest" time="0.002" />
+  <testcase name="responsavelRegistraAdesaoNComoValorValido" classname="br.com.fiap.arkive.service.AdesaoPrescricaoServiceTest" time="0.003" />
+  <testcase name="somenteResponsavelRegistraAdesao" classname="br.com.fiap.arkive.service.AdesaoPrescricaoServiceTest" time="0.007" />
+  <testcase name="naoRegistraAposFimDaPrescricao" classname="br.com.fiap.arkive.service.AdesaoPrescricaoServiceTest" time="0.002" />
+  <testcase name="naoRegistraAntesDoInicioDaPrescricao" classname="br.com.fiap.arkive.service.AdesaoPrescricaoServiceTest" time="0.003" />
+  <testcase name="responsavelRegistraAdesaoSParaAnimalVinculado" classname="br.com.fiap.arkive.service.AdesaoPrescricaoServiceTest" time="0.002" />
+  <testcase name="responsavelNaoRegistraParaAnimalNaoVinculado" classname="br.com.fiap.arkive.service.AdesaoPrescricaoServiceTest" time="0.002" />
+  <testcase name="responsavelAnimalEDataRegistroSaoDerivadosDoServidor" classname="br.com.fiap.arkive.service.AdesaoPrescricaoServiceTest" time="0.003" />
+</testsuite>

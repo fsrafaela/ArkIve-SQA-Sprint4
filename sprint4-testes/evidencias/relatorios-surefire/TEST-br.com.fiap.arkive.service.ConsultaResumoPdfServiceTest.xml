@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.ConsultaResumoPdfServiceTest" time="0.931" tests="11" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="rejeitaConsultaNaoFinalizada" classname="br.com.fiap.arkive.service.ConsultaResumoPdfServiceTest" time="0.041" />
+  <testcase name="pdfIncluiEnderecoSomentePresencialPreenchido(String, String, boolean)[1]" classname="br.com.fiap.arkive.service.ConsultaResumoPdfServiceTest" time="0.62" />
+  <testcase name="pdfIncluiEnderecoSomentePresencialPreenchido(String, String, boolean)[2]" classname="br.com.fiap.arkive.service.ConsultaResumoPdfServiceTest" time="0.03" />
+  <testcase name="pdfIncluiEnderecoSomentePresencialPreenchido(String, String, boolean)[3]" classname="br.com.fiap.arkive.service.ConsultaResumoPdfServiceTest" time="0.029" />
+  <testcase name="pdfIncluiEnderecoSomentePresencialPreenchido(String, String, boolean)[4]" classname="br.com.fiap.arkive.service.ConsultaResumoPdfServiceTest" time="0.03" />
+  <testcase name="funcionaComMultiplasPrescricoes" classname="br.com.fiap.arkive.service.ConsultaResumoPdfServiceTest" time="0.028" />
+  <testcase name="funcionaSemPrescricoesEOmiteSecaoDeMedicacoes" classname="br.com.fiap.arkive.service.ConsultaResumoPdfServiceTest" time="0.027" />
+  <testcase name="geraPdfValidoComDadosFinaisAprovadosESemVazamentoDeCamposInternos" classname="br.com.fiap.arkive.service.ConsultaResumoPdfServiceTest" time="0.028" />
+  <testcase name="rejeitaConsultaFinalizadaSemDiagnosticoConfirmado" classname="br.com.fiap.arkive.service.ConsultaResumoPdfServiceTest" time="0.001" />
+  <testcase name="conteudoLongoGeraMultiplasPaginasSemPerderTexto" classname="br.com.fiap.arkive.service.ConsultaResumoPdfServiceTest" time="0.084" />
+  <testcase name="rejeitaVeterinarioNaoAutorizado" classname="br.com.fiap.arkive.service.ConsultaResumoPdfServiceTest" time="0.003" />
+</testsuite>

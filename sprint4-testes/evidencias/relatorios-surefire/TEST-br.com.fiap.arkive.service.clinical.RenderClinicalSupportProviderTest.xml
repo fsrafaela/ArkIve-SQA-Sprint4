@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.clinical.RenderClinicalSupportProviderTest" time="0.324" tests="14" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="traduzLimiteDeQuota" classname="br.com.fiap.arkive.service.clinical.RenderClinicalSupportProviderTest" time="0.168" />
+  <testcase name="mapeiaContratoSnakeCaseCompletoDoRender" classname="br.com.fiap.arkive.service.clinical.RenderClinicalSupportProviderTest" time="0.08" />
+  <testcase name="chamaEndpointConfiguradoEUsoContratoValido" classname="br.com.fiap.arkive.service.clinical.RenderClinicalSupportProviderTest" time="0.03" />
+  <testcase name="traduzTimeoutOuFalhaDeConexaoSemExporInfraestrutura" classname="br.com.fiap.arkive.service.clinical.RenderClinicalSupportProviderTest" time="0.004" />
+  <testcase name="traduzErroServidorExterno" classname="br.com.fiap.arkive.service.clinical.RenderClinicalSupportProviderTest" time="0.004" />
+  <testcase name="fontesPesquisadasAusentesOuNulasMapeiamComoListaVazia" classname="br.com.fiap.arkive.service.clinical.RenderClinicalSupportProviderTest" time="0.003" />
+  <testcase name="tokensAusentesSaoMantidosComoNulosParaCompatibilidade" classname="br.com.fiap.arkive.service.clinical.RenderClinicalSupportProviderTest" time="0.003" />
+  <testcase name="fontesPesquisadasVaziasMapeiamComoListaVazia" classname="br.com.fiap.arkive.service.clinical.RenderClinicalSupportProviderTest" time="0.003" />
+  <testcase name="ignoraEntradasRagInvalidasTitulosEmBrancoEDuplicadosPreservandoOrdem" classname="br.com.fiap.arkive.service.clinical.RenderClinicalSupportProviderTest" time="0.003" />
+  <testcase name="toProviderResultPreservaFontesPesquisadas" classname="br.com.fiap.arkive.service.clinical.RenderClinicalSupportProviderTest" time="0.003" />
+  <testcase name="traduzJsonInvalidoComoRespostaInvalida" classname="br.com.fiap.arkive.service.clinical.RenderClinicalSupportProviderTest" time="0.008" />
+  <testcase name="rejeitaPayloadMalformado" classname="br.com.fiap.arkive.service.clinical.RenderClinicalSupportProviderTest" time="0.005" />
+  <testcase name="rejeitaTokenNegativoSemRejeitarMetadadosAusentes" classname="br.com.fiap.arkive.service.clinical.RenderClinicalSupportProviderTest" time="0.004" />
+  <testcase name="fontesRagAusentesOuNulasMapeiamComoListaVazia" classname="br.com.fiap.arkive.service.clinical.RenderClinicalSupportProviderTest" time="0.002" />
+</testsuite>

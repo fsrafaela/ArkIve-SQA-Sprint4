@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.bootstrap.InitialSysAdminBootstrapTest" time="1.971" tests="7" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="rejeitaNomeBootstrapAusente" classname="br.com.fiap.arkive.bootstrap.InitialSysAdminBootstrapTest" time="0.48" />
+  <testcase name="rejeitaLoginBootstrapAusente" classname="br.com.fiap.arkive.bootstrap.InitialSysAdminBootstrapTest" time="0.002" />
+  <testcase name="sysadminAtivoExistenteIgnoraCriacaoEConfiguracao" classname="br.com.fiap.arkive.bootstrap.InitialSysAdminBootstrapTest" time="0.022">
+    <system-out><![CDATA[18:58:12.210 [main] INFO br.com.fiap.arkive.bootstrap.InitialSysAdminBootstrap -- Active SysAdmin already exists; initial bootstrap skipped.
+]]></system-out>
+  </testcase>
+  <testcase name="bootstrapDesabilitadoNaoInterageComCriacao" classname="br.com.fiap.arkive.bootstrap.InitialSysAdminBootstrapTest" time="0.002">
+    <system-out><![CDATA[18:58:12.221 [main] INFO br.com.fiap.arkive.bootstrap.InitialSysAdminBootstrap -- Initial SysAdmin bootstrap disabled.
+]]></system-out>
+  </testcase>
+  <testcase name="rejeitaSenhaBootstrapAusenteSemExporValor" classname="br.com.fiap.arkive.bootstrap.InitialSysAdminBootstrapTest" time="0.004" />
+  <testcase name="sysadminAusenteCriaContaPeloUsuarioService" classname="br.com.fiap.arkive.bootstrap.InitialSysAdminBootstrapTest" time="0.012">
+    <system-out><![CDATA[18:58:12.239 [main] INFO br.com.fiap.arkive.bootstrap.InitialSysAdminBootstrap -- Initial SysAdmin created successfully.
+]]></system-out>
+  </testcase>
+  <testcase name="falhaDoUsuarioServicePropagaSemPersistenciaDireta" classname="br.com.fiap.arkive.bootstrap.InitialSysAdminBootstrapTest" time="0.011" />
+</testsuite>

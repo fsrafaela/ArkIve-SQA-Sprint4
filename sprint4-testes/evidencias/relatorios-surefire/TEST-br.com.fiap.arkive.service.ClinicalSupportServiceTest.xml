@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.ClinicalSupportServiceTest" time="0.073" tests="12" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="getSuporteAusenteRetornaErroControlado" classname="br.com.fiap.arkive.service.ClinicalSupportServiceTest" time="0.04" />
+  <testcase name="consultaEmProcessamentoNaoChamaProviderDuasVezes" classname="br.com.fiap.arkive.service.ClinicalSupportServiceTest" time="0.009" />
+  <testcase name="falhaDoProviderNaoPersiste" classname="br.com.fiap.arkive.service.ClinicalSupportServiceTest" time="0.002" />
+  <testcase name="getSuporteDeOutroVeterinarioRetorna403SemProvider" classname="br.com.fiap.arkive.service.ClinicalSupportServiceTest" time="0.002" />
+  <testcase name="respostaValidaNaoCriaSuporteSeConsultaMudarDeEstadoAntesDaPersistencia" classname="br.com.fiap.arkive.service.ClinicalSupportServiceTest" time="0.001" />
+  <testcase name="suporteExistenteEmApRetornaPersistidoSemChamarProvider" classname="br.com.fiap.arkive.service.ClinicalSupportServiceTest" time="0.0" />
+  <testcase name="getSuporteRetornaPersistidoSemProvider" classname="br.com.fiap.arkive.service.ClinicalSupportServiceTest" time="0.0" />
+  <testcase name="estadosInvalidosNaoChamamProvider" classname="br.com.fiap.arkive.service.ClinicalSupportServiceTest" time="0.001" />
+  <testcase name="respostaAtrasadaQueChegaComSucessoEhPersistidaERecuperadaPeloGet" classname="br.com.fiap.arkive.service.ClinicalSupportServiceTest" time="0.009" />
+  <testcase name="outroVeterinarioNaoChamaProvider" classname="br.com.fiap.arkive.service.ClinicalSupportServiceTest" time="0.002" />
+  <testcase name="consultaEpDoVeterinarioChamaProviderUmaVezEPersisteResposta" classname="br.com.fiap.arkive.service.ClinicalSupportServiceTest" time="0.001" />
+  <testcase name="respostaMalformadaNaoPersiste" classname="br.com.fiap.arkive.service.ClinicalSupportServiceTest" time="0.002" />
+</testsuite>

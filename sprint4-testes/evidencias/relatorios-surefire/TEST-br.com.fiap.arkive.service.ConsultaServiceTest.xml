@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.067" tests="37" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="rejeitaCriacaoNoPassado" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.002" />
+  <testcase name="putExigeVeterinarioDonoDaConsulta" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.003" />
+  <testcase name="enderecoPersonalizadoVenceClinica" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.002" />
+  <testcase name="criaPrimeiraConsultaParaAnimalRecemCadastradoSemConsultaPrevia" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="criaConsultaSemVeterinarioNoRequestUsaVeterinarioAutenticado" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="putMantemEdicaoDeCamposQuandoStatusNaoMuda" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="rejeitaReagendamentoNoPassado" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="veterinarioNaoCriaConsultaComoOutroVeterinario" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="remotaNaoUsaClinicaMasPreservaEnderecoExplicito" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="leituraDaConsultaPropriaPreservaZeroRegistrado" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="putNaoAlteraStatusDaConsulta" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="permiteEdicaoHistoricaSemMudarData" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="buscaAutorizadaValidaAcessoAoRecurso" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="veterinarioSemClinicaCriaConsultaSemClinica" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.002" />
+  <testcase name="somenteVeterinarioAutenticadoCriaConsulta" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.003" />
+  <testcase name="deleteBloqueiaConsultaQueProgrediu" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.002" />
+  <testcase name="listagemAutorizadaDeVeterinarioSempreUsaVeterinarioAutenticado" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.003" />
+  <testcase name="deletePermiteSomenteConsultaAgendadaPropria" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="rejeitaCriacaoComStatusDiferenteDeAg" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.002" />
+  <testcase name="listagemAutorizadaDeVeterinarioComFiltroConflitanteRetornaVazia" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="deleteExigeVeterinarioDonoDaConsulta" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.003" />
+  <testcase name="veterinarioSemClinicaNaoCriaConsultaInformandoClinica" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.002" />
+  <testcase name="filtrosNovosSaoCombinadosSemRemoverEscopoDoVeterinario" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="criaConsultaSempreAgendadaQuandoStatusOmitidoOuAg" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="intervaloInvertidoEhRejeitadoAntesDaConsultaAoBanco" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.002" />
+  <testcase name="presencialSemClinicaAceitaEnderecoNulo" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="putNaoReassociaAnimalVeterinarioOuClinica" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.003" />
+  <testcase name="enderecoVazioUsaClinica(String)[1]" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="enderecoVazioUsaClinica(String)[2]" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="enderecoVazioUsaClinica(String)[3]" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="sobrecargasGenericasDeEscritaExigemPrincipal" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="enderecoDaClinicaEhSnapshotInclusiveSemClinicaNoRequest" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="leituraClinicaDeOutroVeterinarioRedigeValorSemOcultarConsulta" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="aceitaAgoraOuFuturo(long)[1]" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="aceitaAgoraOuFuturo(long)[2]" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="aceitaAgoraOuFuturo(long)[3]" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+  <testcase name="atualizacaoNaoReaplicaEnderecoDaClinica" classname="br.com.fiap.arkive.service.ConsultaServiceTest" time="0.001" />
+</testsuite>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.security.ArkiveUserDetailsServiceTest" time="0.016" tests="4" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="usuarioInativoPermaneceDesabilitado" classname="br.com.fiap.arkive.security.ArkiveUserDetailsServiceTest" time="0.008" />
+  <testcase name="loginInexistenteLancaUsernameNotFound" classname="br.com.fiap.arkive.security.ArkiveUserDetailsServiceTest" time="0.003" />
+  <testcase name="loginExistenteRetornaPrincipal" classname="br.com.fiap.arkive.security.ArkiveUserDetailsServiceTest" time="0.004" />
+  <testcase name="crmvResolveMesmoUsuarioVeterinarioQuandoLoginNaoExiste" classname="br.com.fiap.arkive.security.ArkiveUserDetailsServiceTest" time="0.001" />
+</testsuite>

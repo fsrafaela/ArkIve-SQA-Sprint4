@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.093" tests="20" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="diagnosticoEPrescricaoUsamConsultaParaEscritaVeterinaria" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.048" />
+  <testcase name="veterinarioNaoLeAnimalInativoDaPropriaClinicaSemConsultaPrevia" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.001" />
+  <testcase name="veterinarioNaoLeAnimalDeOutraClinicaSemConsultaPrevia" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.001" />
+  <testcase name="veterinarioNaoLeAnimalCliniclessNaoCadastradoPorEleSemConsulta" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.001" />
+  <testcase name="criacaoDeRelatoExigeResponsavelComVinculoAtivoNaDataInformada" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.002" />
+  <testcase name="acessoExplicitoPermiteLeituraMasNaoEscritaNaConsultaDeOutroVeterinario" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.002" />
+  <testcase name="prescricaoUsaEscopoDaConsultaParaLeitura" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.004" />
+  <testcase name="consultaNaoPodeSerLidaForaDoEscopoDoUsuario" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.002" />
+  <testcase name="veterinarioLeAnimalAtivoDaPropriaClinicaSemConsultaPrevia" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.001" />
+  <testcase name="consultaPodeSerLidaPorVeterinarioResponsavelResponsavelVinculadoAdminDaClinicaESysadmin" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.003" />
+  <testcase name="veterinarioPodeEscreverNaPropriaConsulta" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.001" />
+  <testcase name="somenteVeterinarioOuResponsavelPodemOriginarCompartilhamento" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.003" />
+  <testcase name="acessoExplicitoAprovadoPermiteVeterinarioLerRelatosPeloEscopoDoAnimal" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.001" />
+  <testcase name="veterinarioLeAnimalComConsultaPropria" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.001" />
+  <testcase name="veterinarioNaoEscreveEmConsultaDeOutroVeterinario" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.001" />
+  <testcase name="registroDeAdesaoPermitidoSomenteAoResponsavelVinculado" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.004" />
+  <testcase name="leituraDeAdesaoPreservaPrivacidadeEntreResponsaveis" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.004" />
+  <testcase name="veterinarioLeAnimalAtivoCadastradoPorEleSemClinicaOuConsulta" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.002" />
+  <testcase name="responsavelLeAnimalSomenteComVinculoAtivoVigente" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.001" />
+  <testcase name="adminClinicaSysadminEResponsavelNaoExecutamEscritaClinicaDeVeterinario" classname="br.com.fiap.arkive.service.ClinicalAccessServiceTest" time="0.001" />
+</testsuite>

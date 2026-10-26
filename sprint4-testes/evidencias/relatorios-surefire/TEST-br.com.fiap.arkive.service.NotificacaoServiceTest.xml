@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.NotificacaoServiceTest" time="0.111" tests="13" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="lembreteEhIdempotentePorHorarioEReagendamentoGeraNovaIdentidade" classname="br.com.fiap.arkive.service.NotificacaoServiceTest" time="0.088" />
+  <testcase name="eventoJaPersistidoNaoDuplicaEDestinatarioSemNovaLinhaNaoPublicaPush" classname="br.com.fiap.arkive.service.NotificacaoServiceTest" time="0.002" />
+  <testcase name="listaEContagemSempreUsamUsuarioDoPrincipal" classname="br.com.fiap.arkive.service.NotificacaoServiceTest" time="0.001" />
+  <testcase name="marcarComoLidaEhIdempotenteEPreservaPrimeiroInstante" classname="br.com.fiap.arkive.service.NotificacaoServiceTest" time="0.002" />
+  <testcase name="preferenciaNaoNaoImpedePersistenciaDaCaixaDeEntrada" classname="br.com.fiap.arkive.service.NotificacaoServiceTest" time="0.001" />
+  <testcase name="consultaAgendadaDuplicadaNaoCriaOutraLinhaParaMesmoUsuario" classname="br.com.fiap.arkive.service.NotificacaoServiceTest" time="0.0" />
+  <testcase name="usuarioNaoPodeMarcarNotificacaoDeOutraConta" classname="br.com.fiap.arkive.service.NotificacaoServiceTest" time="0.001" />
+  <testcase name="solicitacaoAcessoNotificaResponsaveisComIdentidadeClinicaERecursoDaSolicitacao" classname="br.com.fiap.arkive.service.NotificacaoServiceTest" time="0.009" />
+  <testcase name="criaUmaNotificacaoPorDestinatarioComConteudoClinicoMinimo" classname="br.com.fiap.arkive.service.NotificacaoServiceTest" time="0.002" />
+  <testcase name="consultaAgendadaNotificaCadaResponsavelComArkiveIdERecursoDaConsulta" classname="br.com.fiap.arkive.service.NotificacaoServiceTest" time="0.001" />
+  <testcase name="marcarTodasAtualizaSomenteEscopoDoPrincipal" classname="br.com.fiap.arkive.service.NotificacaoServiceTest" time="0.001" />
+  <testcase name="consultaSemResponsavelAtualNaoCriaNotificacaoOrfa" classname="br.com.fiap.arkive.service.NotificacaoServiceTest" time="0.001" />
+  <testcase name="solicitacaoAcessoDuplicadaNaoCriaOutraNotificacaoNemPublicaPush" classname="br.com.fiap.arkive.service.NotificacaoServiceTest" time="0.0" />
+</testsuite>

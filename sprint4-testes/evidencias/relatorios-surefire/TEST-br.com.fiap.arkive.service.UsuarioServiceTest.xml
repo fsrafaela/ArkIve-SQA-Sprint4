@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.166" tests="43" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="adminClinicaRejeitaResponsavelOuVeterinario" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="desativarContaAtualRejeita" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="criarResponsavelValido" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="sysadminRejeitaQualquerAssociacao" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.002" />
+  <testcase name="veterinarioRejeitaResponsavelOuClinica" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="desativarContaAtivaAlteraParaInativo" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="editarRejeitaLoginDuplicado" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="responsavelAceitaResponsavelAtivo" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="desativarUsuarioJaInativoRejeita" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="outroSysadminPodeSerDemovidoQuandoExisteOutroAtivo" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="veterinarioAceitaVeterinarioAtivo" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.002" />
+  <testcase name="desativarUsuarioInexistenteRejeita" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="criarAdminClinicaValido" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.0" />
+  <testcase name="editarRejeitaVinculosJaUsados" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="listaVeterinariosDisponiveisParaEdicaoIncluindoVinculoAtual" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.0" />
+  <testcase name="desativarSysadminQuandoExisteOutroAtivo" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="criarProvisionadoComBcryptPermitePrimeiraAutenticacaoComEmailComoSenha" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.116" />
+  <testcase name="sysadminAceitaSemAssociacao" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="listaResponsaveisDisponiveisParaCriacaoAPartirDaConsultaFiltrada" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="criarRejeitaVeterinarioJaAssociado" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="desativarUltimoSysadminAtivoRejeita" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="responsavelExigeResponsavel" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="sysadminAtualNaoPodeDemoverProprioPerfil" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="adminClinicaExigeClinica" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="ativarContaInativaAlteraParaAtivo" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.0" />
+  <testcase name="criarVeterinarioValido" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="ativarUsuarioInexistenteRejeita" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="editarCorrigeNomeLoginEPerfil" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="adminClinicaAceitaClinicaAtiva" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.0" />
+  <testcase name="ultimoSysadminAtivoNaoPodeSerDemovido" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="criarNaoPersisteQuandoLoginDuplicado" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="listaVeterinariosDisponiveisParaCriacaoAPartirDaConsultaFiltrada" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.002" />
+  <testcase name="rejeitaReferenciaInativa" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.0" />
+  <testcase name="rejeitaReferenciaInexistente" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.0" />
+  <testcase name="ativarUsuarioJaAtivoRejeita" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.0" />
+  <testcase name="rejeitaLoginDuplicado" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.0" />
+  <testcase name="responsavelRejeitaVeterinarioOuClinica" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="criarProvisionadoUsaLoginComoCredencialInicialComTrocaObrigatoria" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="criarMantemValidacaoDeAssociacao" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="veterinarioExigeVeterinario" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="listaResponsaveisDisponiveisParaEdicaoIncluindoVinculoAtual" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+  <testcase name="criarCodificaSenhaAntesDePersistir" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.002" />
+  <testcase name="rejeitaAtivoInvalido" classname="br.com.fiap.arkive.service.UsuarioServiceTest" time="0.001" />
+</testsuite>

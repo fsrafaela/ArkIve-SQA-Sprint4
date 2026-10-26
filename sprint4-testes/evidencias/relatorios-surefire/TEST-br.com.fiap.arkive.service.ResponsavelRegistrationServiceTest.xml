@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.ResponsavelRegistrationServiceTest" time="0.021" tests="13" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="criaResponsavelEUsuarioAtivosComPerfilFixoESenhaEscolhida" classname="br.com.fiap.arkive.service.ResponsavelRegistrationServiceTest" time="0.005" />
+  <testcase name="rejeitaCpfComDigitosVerificadoresInvalidos" classname="br.com.fiap.arkive.service.ResponsavelRegistrationServiceTest" time="0.002" />
+  <testcase name="rejeitaCpfComTodosOsDigitosIguais" classname="br.com.fiap.arkive.service.ResponsavelRegistrationServiceTest" time="0.001" />
+  <testcase name="aceitaRgNumericoEAlfanumericoComNormalizacaoGenerica" classname="br.com.fiap.arkive.service.ResponsavelRegistrationServiceTest" time="0.0" />
+  <testcase name="aplicaPoliticaAtualDeSenhaAntesDePersistir" classname="br.com.fiap.arkive.service.ResponsavelRegistrationServiceTest" time="0.002" />
+  <testcase name="normalizaEmailETelefoneEmBrancoSemExporControlesDePerfil" classname="br.com.fiap.arkive.service.ResponsavelRegistrationServiceTest" time="0.001" />
+  <testcase name="rejeitaRgComEstruturaInvalida" classname="br.com.fiap.arkive.service.ResponsavelRegistrationServiceTest" time="0.001" />
+  <testcase name="rejeitaTipoDeDocumentoAusenteEmDefesaDeDominio" classname="br.com.fiap.arkive.service.ResponsavelRegistrationServiceTest" time="0.001" />
+  <testcase name="rejeitaCpfCurtoOuLongo" classname="br.com.fiap.arkive.service.ResponsavelRegistrationServiceTest" time="0.001" />
+  <testcase name="rejeitaEmailDuplicadoSemCriarResponsavel" classname="br.com.fiap.arkive.service.ResponsavelRegistrationServiceTest" time="0.001" />
+  <testcase name="rejeitaDocumentoDuplicadoSemCriarUsuario" classname="br.com.fiap.arkive.service.ResponsavelRegistrationServiceTest" time="0.0" />
+  <testcase name="falhaAoCriarUsuarioPropagaParaRollbackDaTransacao" classname="br.com.fiap.arkive.service.ResponsavelRegistrationServiceTest" time="0.001" />
+  <testcase name="aceitaCpfValidoFormatadoENormalizaAntesDaUnicidade" classname="br.com.fiap.arkive.service.ResponsavelRegistrationServiceTest" time="0.0" />
+</testsuite>

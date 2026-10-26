@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.059" tests="21" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="atualizaNarrativaEmEpEAp" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.01" />
+  <testcase name="veterinarioPodeFinalizarPropriaConsulta" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.005" />
+  <testcase name="rejeitaIniciarConsultaJaIniciadaOuTerminal" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.002" />
+  <testcase name="rejeitaFinalizacaoComDiagnosticoBlankOuDoencaInvalida" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.002" />
+  <testcase name="rejeitaFinalizacaoComRecursosInativos" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.002" />
+  <testcase name="rejeitaCancelamentoSemMotivoOuTerminal" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.004" />
+  <testcase name="finalizaConsultaEmProgressoComDiagnosticoConfirmado" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.001" />
+  <testcase name="inicioConsomeObservacaoPendenteUmaUnicaVezSobLockDoAnimal" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.002" />
+  <testcase name="consultaIniciadaPodeSerCanceladaEPreservaSnapshotDaObservacaoResponsavel" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.001" />
+  <testcase name="veterinarioPodeAtualizarNarrativaDaPropriaConsulta" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.0" />
+  <testcase name="rejeitaFinalizacaoEmEstadosInvalidos" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.001" />
+  <testcase name="veterinarioPodeCancelarPropriaConsulta" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.001" />
+  <testcase name="iniciaConsultaAgendada" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.001" />
+  <testcase name="cancelaConsultaAgEpEAp" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.005" />
+  <testcase name="propagaErroDeEventoParaRollbackTransacionalDaFinalizacao" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.003" />
+  <testcase name="cancelamentoAntesDoInicioNaoConsomeObservacaoPendente" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.001" />
+  <testcase name="rejeitaNarrativaBlankAgFiECa" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.002" />
+  <testcase name="veterinarioPodeExecutarFluxoDaPropriaConsulta" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.001" />
+  <testcase name="rejeitaInicioComRecursosInativos" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.002" />
+  <testcase name="finalizaConsultaAguardandoParecer" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.001" />
+  <testcase name="veterinarioNaoExecutaFluxoDeConsultaDeOutroVeterinario" classname="br.com.fiap.arkive.service.ConsultaWorkflowServiceTest" time="0.006" />
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.speech.AudioConversionServiceTest" time="0.095" tests="8" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="converteComArgumentosFixosELimpaTemporarios(SupportedAudioFormat)[1]" classname="br.com.fiap.arkive.service.speech.AudioConversionServiceTest" time="0.056" />
+  <testcase name="converteComArgumentosFixosELimpaTemporarios(SupportedAudioFormat)[2]" classname="br.com.fiap.arkive.service.speech.AudioConversionServiceTest" time="0.003" />
+  <testcase name="converteComArgumentosFixosELimpaTemporarios(SupportedAudioFormat)[3]" classname="br.com.fiap.arkive.service.speech.AudioConversionServiceTest" time="0.003" />
+  <testcase name="wavTemporarioEhRemovidoAoFecharPreparedAudio" classname="br.com.fiap.arkive.service.speech.AudioConversionServiceTest" time="0.015" />
+  <testcase name="falhasWebmSaoSegurasELimpamArquivos(String)[1]" classname="br.com.fiap.arkive.service.speech.AudioConversionServiceTest" time="0.004" />
+  <testcase name="falhasWebmSaoSegurasELimpamArquivos(String)[2]" classname="br.com.fiap.arkive.service.speech.AudioConversionServiceTest" time="0.003" />
+  <testcase name="falhasWebmSaoSegurasELimpamArquivos(String)[3]" classname="br.com.fiap.arkive.service.speech.AudioConversionServiceTest" time="0.004" />
+  <testcase name="falhasWebmSaoSegurasELimpamArquivos(String)[4]" classname="br.com.fiap.arkive.service.speech.AudioConversionServiceTest" time="0.003" />
+</testsuite>

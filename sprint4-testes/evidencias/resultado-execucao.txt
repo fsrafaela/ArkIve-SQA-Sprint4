@@ -1,0 +1,86 @@
+ARKIVE — RESULTADO DA EXECUÇÃO DOS TESTES UNITÁRIOS
+===================================================
+
+Data: 20/10/2026
+Janela dos relatórios: 18:58:12 a 18:58:18 (America/Sao_Paulo)
+Sistema operacional: Windows 11 amd64
+Java efetivo do Maven: Eclipse Adoptium 17.0.18
+Maven: Apache Maven 3.9.15
+Surefire: 3.5.5
+Provider: org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+
+Seleção utilizada:
+- fontes em src/test/java;
+- exclusão de @WebMvcTest, @AutoConfigureMockMvc, @DataJpaTest e @SpringBootTest;
+- exclusão explícita de AnimalRepositorySearchContractTest,
+  ClinicalWorkflowEndToEndServiceTest, VeterinarioAuthenticationFlowTest e
+  V8__backfill_arkive_patient_idsTest.
+
+Comando Maven utilizado, representado de forma portátil e sem caminho local:
+
+  <MAVEN_3.9.15_DO_CACHE> test "-Dtest=$($unitTests.BaseName -join ',')"
+
+Argumento -Dtest efetivamente resolvido:
+
+  AccountProvisioningServiceTest,AdesaoPrescricaoServiceTest,
+  AnimalCustoServiceTest,AnimalResponsavelServiceTest,
+  AnimalServiceAuthorizationTest,ArkivePatientIdGeneratorTest,
+  ArkiveUserDetailsServiceTest,AudioConversionServiceTest,AuthServiceTest,
+  AzureSpeechConfigTest,AzureSpeechTranscriptionServiceTest,
+  ClinicalAccessServiceTest,ClinicalSupportPersistenceServiceTest,
+  ClinicalSupportResponseTest,ClinicalSupportServiceTest,ClinicaServiceTest,
+  ConsultaBusinessTimeTest,ConsultaReminderPropertiesTest,
+  ConsultaReminderSchedulerTest,ConsultaReminderServiceTest,
+  ConsultaResumoPdfServiceTest,ConsultaServiceTest,
+  ConsultaStatusTransitionPolicyTest,ConsultaWorkflowServiceTest,
+  DiagnosticoAuthorizationServiceTest,
+  DiagnosticoValidacaoVeterinariaServiceTest,ExpoPushClientTest,
+  FinancialVisibilityServiceTest,GlobalExceptionHandlerTest,
+  InitialSysAdminBootstrapTest,NotificacaoPushListenerTest,
+  NotificacaoPushServiceTest,NotificacaoServiceTest,OpenApiConfigTest,
+  PasswordLifecycleServiceTest,PasswordPolicyTest,
+  PatientAccessRequestServiceTest,PatientAccessServiceTest,
+  PatientShareServiceTest,PdfBrandHeaderTest,
+  PrescricaoAuthorizationServiceTest,PublicRequestContractTest,
+  RacaServiceTest,RelatoAnimalServiceTest,RelatoSearchNormalizerTest,
+  RenderClinicalSupportProviderTest,ResponsavelLookupServiceTest,
+  ResponsavelRegistrationServiceTest,SupportedAudioFormatTest,
+  SysAdminDashboardServiceTest,TemporaryPasswordGeneratorTest,
+  TranscricaoServiceTest,UsuarioDispositivoServiceTest,UsuarioPrincipalTest,
+  UsuarioServiceTest,VeterinarioCustoServiceTest,VeterinarioServiceTest
+
+O executável real foi a distribuição Apache Maven 3.9.15 do cache do Maven
+Wrapper. O caminho absoluto foi omitido desta cópia por conter identificação
+do ambiente local. O seletor $unitTests continha exatamente as 57 classes
+documentadas neste pacote.
+
+Resultado confirmado pelos XMLs Surefire:
+
+  Classes executadas: 57
+  Testes executados: 523
+  Falhas: 0
+  Erros: 0
+  Ignorados: 0
+  Resultado do build: BUILD SUCCESS
+  Tempo total informado pelo Maven: 21.124 s
+  Finalização: 2026-10-20T18:58:18-03:00
+
+Observação sobre o Wrapper:
+
+  .\mvnw.cmd falhou nesta máquina antes de iniciar o Maven, com as mensagens
+  "Cannot start maven from wrapper" e "Cannot index into a null array".
+  A falha não representa resultado de teste; a execução válida é a descrita
+  acima com Maven 3.9.15.
+
+Serviços não acessados:
+- Oracle;
+- Groq/IA externa;
+- Render;
+- Azure Speech real;
+- Expo real.
+
+Sanitização das evidências:
+- os XMLs originais em target/surefire-reports não foram modificados;
+- nas cópias deste pacote foi removido somente o elemento <properties>, que
+  continha classpath, diretórios e identificação do ambiente local;
+- nomes das suítes, testcases, tempos e resultados foram preservados.

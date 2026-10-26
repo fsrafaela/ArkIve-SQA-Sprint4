@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.PatientAccessRequestServiceTest" time="0.118" tests="14" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="responsavelAtualAprovaAtomicamenteEReutilizaPatientAccess" classname="br.com.fiap.arkive.service.PatientAccessRequestServiceTest" time="0.086" />
+  <testcase name="listasSaoEscopadasPorSolicitanteOuVinculoResponsavelAtual" classname="br.com.fiap.arkive.service.PatientAccessRequestServiceTest" time="0.006" />
+  <testcase name="criaPendentePeloArkiveIdNormalizadoSemConcederAcessoNemExporNome" classname="br.com.fiap.arkive.service.PatientAccessRequestServiceTest" time="0.003" />
+  <testcase name="veterinariosDiferentesPodemCriarPedidosIndependentes" classname="br.com.fiap.arkive.service.PatientAccessRequestServiceTest" time="0.001" />
+  <testcase name="somenteVeterinarioAtivoECoerenteComPrincipalPodeCriar" classname="br.com.fiap.arkive.service.PatientAccessRequestServiceTest" time="0.004" />
+  <testcase name="segundaAprovacaoEhIdempotenteERejeicaoPosteriorConflita" classname="br.com.fiap.arkive.service.PatientAccessRequestServiceTest" time="0.001" />
+  <testcase name="solicitanteSoVeNomeDepoisDaAprovacaoEVeNuncaAIdentidadeDoResolvedor" classname="br.com.fiap.arkive.service.PatientAccessRequestServiceTest" time="0.001" />
+  <testcase name="solicitanteInativoPermanecePendenteENaoRecebeAcesso" classname="br.com.fiap.arkive.service.PatientAccessRequestServiceTest" time="0.002" />
+  <testcase name="responsavelAntigoOuNaoRelacionadoNaoPodeResolver" classname="br.com.fiap.arkive.service.PatientAccessRequestServiceTest" time="0.002" />
+  <testcase name="aprovacaoDaAcessoClinicoMasNaoAosPrecosDeOutroVeterinario" classname="br.com.fiap.arkive.service.PatientAccessRequestServiceTest" time="0.001" />
+  <testcase name="rejeicaoEhIdempotenteNaoCriaAcessoENovaSolicitacaoFuturaContinuaPermitida" classname="br.com.fiap.arkive.service.PatientAccessRequestServiceTest" time="0.002" />
+  <testcase name="acessoClinicoExistenteOuPendenteDuplicadoRetornaConflitoSemNotificacao" classname="br.com.fiap.arkive.service.PatientAccessRequestServiceTest" time="0.003" />
+  <testcase name="detalheNaoPodeSerInspecionadoPorVeterinarioOuResponsavelNaoRelacionado" classname="br.com.fiap.arkive.service.PatientAccessRequestServiceTest" time="0.002" />
+  <testcase name="rejeitaPacienteDesconhecidoInativoOuSemResponsavel" classname="br.com.fiap.arkive.service.PatientAccessRequestServiceTest" time="0.002" />
+</testsuite>

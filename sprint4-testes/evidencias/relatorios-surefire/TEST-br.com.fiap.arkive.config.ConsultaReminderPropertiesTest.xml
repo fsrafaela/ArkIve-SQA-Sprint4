@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.config.ConsultaReminderPropertiesTest" time="0.567" tests="1" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="padraoEhTrintaMinutosELimitesSaoValidados" classname="br.com.fiap.arkive.config.ConsultaReminderPropertiesTest" time="0.565">
+    <system-out><![CDATA[18:58:12.571 [main] INFO org.hibernate.validator.internal.util.Version -- HV000001: Hibernate Validator 8.0.3.Final
+]]></system-out>
+  </testcase>
+</testsuite>

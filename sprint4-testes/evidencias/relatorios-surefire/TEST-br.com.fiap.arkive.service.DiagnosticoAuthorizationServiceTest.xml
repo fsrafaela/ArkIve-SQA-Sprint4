@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.DiagnosticoAuthorizationServiceTest" time="0.083" tests="13" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="veterinarioCriaDiagnosticoSomenteAposValidarConsulta" classname="br.com.fiap.arkive.service.DiagnosticoAuthorizationServiceTest" time="0.066" />
+  <testcase name="persisteTokensDoMotorERejeitaValoresNegativos" classname="br.com.fiap.arkive.service.DiagnosticoAuthorizationServiceTest" time="0.002" />
+  <testcase name="diagnosticoConfirmadoPeloVeterinarioNaoEhAvaliacaoDeInsightIa" classname="br.com.fiap.arkive.service.DiagnosticoAuthorizationServiceTest" time="0.0" />
+  <testcase name="listagemDeVeterinarioUsaConsultaDoVeterinarioAutenticado" classname="br.com.fiap.arkive.service.DiagnosticoAuthorizationServiceTest" time="0.001" />
+  <testcase name="diagnosticoGenericoCriadoPeloClientePermaneceNaoConfirmado" classname="br.com.fiap.arkive.service.DiagnosticoAuthorizationServiceTest" time="0.001" />
+  <testcase name="atualizacaoDeDiagnosticoValidaConsultaResultante" classname="br.com.fiap.arkive.service.DiagnosticoAuthorizationServiceTest" time="0.002" />
+  <testcase name="aceitaSeveridadeAusenteSemConfundirComNulo" classname="br.com.fiap.arkive.service.DiagnosticoAuthorizationServiceTest" time="0.0" />
+  <testcase name="diagnosticoGenericoNaoAceitaCamposControladosPeloServidor" classname="br.com.fiap.arkive.service.DiagnosticoAuthorizationServiceTest" time="0.001" />
+  <testcase name="atualizacaoGenericaNaoAceitaValidacaoVeterinaria" classname="br.com.fiap.arkive.service.DiagnosticoAuthorizationServiceTest" time="0.001" />
+  <testcase name="criaSuporteClinicoIaComoProvisorioNaoConfirmado" classname="br.com.fiap.arkive.service.DiagnosticoAuthorizationServiceTest" time="0.0" />
+  <testcase name="leituraPorIdValidaEscopoDaConsulta" classname="br.com.fiap.arkive.service.DiagnosticoAuthorizationServiceTest" time="0.002" />
+  <testcase name="mantemSeveridadesAnterioresERejeitaValorDesconhecido" classname="br.com.fiap.arkive.service.DiagnosticoAuthorizationServiceTest" time="0.001" />
+  <testcase name="criaSuporteClinicoIaPersisteJsonDeFontesQuandoInformado" classname="br.com.fiap.arkive.service.DiagnosticoAuthorizationServiceTest" time="0.0" />
+</testsuite>

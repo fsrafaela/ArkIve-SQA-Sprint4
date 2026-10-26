@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.security.UsuarioPrincipalTest" time="0.008" tests="11" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="mapeiaSysadminParaRoleSysadmin" classname="br.com.fiap.arkive.security.UsuarioPrincipalTest" time="0.0" />
+  <testcase name="expoeTrocaSenhaObrigatoriaSemEntidadeJpa" classname="br.com.fiap.arkive.security.UsuarioPrincipalTest" time="0.001" />
+  <testcase name="ativoNDesabilitaUsuario" classname="br.com.fiap.arkive.security.UsuarioPrincipalTest" time="0.0" />
+  <testcase name="responsavelExpoeApenasIdResponsavel" classname="br.com.fiap.arkive.security.UsuarioPrincipalTest" time="0.001" />
+  <testcase name="sysadminNaoExpoeAssociacaoContextual" classname="br.com.fiap.arkive.security.UsuarioPrincipalTest" time="0.0" />
+  <testcase name="ativoSHabilitaUsuario" classname="br.com.fiap.arkive.security.UsuarioPrincipalTest" time="0.0" />
+  <testcase name="mapeiaVeterinarioParaRoleVeterinario" classname="br.com.fiap.arkive.security.UsuarioPrincipalTest" time="0.0" />
+  <testcase name="veterinarioExpoeApenasIdVeterinario" classname="br.com.fiap.arkive.security.UsuarioPrincipalTest" time="0.0" />
+  <testcase name="mapeiaAdminClinicaParaRoleAdminClinica" classname="br.com.fiap.arkive.security.UsuarioPrincipalTest" time="0.0" />
+  <testcase name="mapeiaResponsavelParaRoleResponsavel" classname="br.com.fiap.arkive.security.UsuarioPrincipalTest" time="0.001" />
+  <testcase name="adminClinicaExpoeApenasIdClinica" classname="br.com.fiap.arkive.security.UsuarioPrincipalTest" time="0.001" />
+</testsuite>

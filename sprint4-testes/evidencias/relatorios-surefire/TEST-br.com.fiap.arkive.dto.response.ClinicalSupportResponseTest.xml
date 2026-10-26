@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.dto.response.ClinicalSupportResponseTest" time="0.252" tests="10" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="referenciasRagPersistidasSaoSanitizadas" classname="br.com.fiap.arkive.dto.response.ClinicalSupportResponseTest" time="0.222" />
+  <testcase name="jsonPersistidoMalformadoRetornaListaVazia" classname="br.com.fiap.arkive.dto.response.ClinicalSupportResponseTest" time="0.01" />
+  <testcase name="leJsonPersistidoDeFontesComoLista" classname="br.com.fiap.arkive.dto.response.ClinicalSupportResponseTest" time="0.001" />
+  <testcase name="leReferenciasRagEstruturadasSemMisturarFontesExternas" classname="br.com.fiap.arkive.dto.response.ClinicalSupportResponseTest" time="0.002" />
+  <testcase name="refleteValidacaoNegativaPersistida" classname="br.com.fiap.arkive.dto.response.ClinicalSupportResponseTest" time="0.001" />
+  <testcase name="fontesNulasOuEmBrancoRetornamListaVazia" classname="br.com.fiap.arkive.dto.response.ClinicalSupportResponseTest" time="0.001" />
+  <testcase name="refleteValidacaoPositivaPersistida" classname="br.com.fiap.arkive.dto.response.ClinicalSupportResponseTest" time="0.001" />
+  <testcase name="referenciasEstruturadasSaoNormalizadasSemColapsarOrganizacoesDiferentes" classname="br.com.fiap.arkive.dto.response.ClinicalSupportResponseTest" time="0.006" />
+  <testcase name="registroLegadoSemPersistenciaRagRetornaListaVazia" classname="br.com.fiap.arkive.dto.response.ClinicalSupportResponseTest" time="0.001" />
+  <testcase name="expoeTokensPersistidosESemMetadadosRetornaNulo" classname="br.com.fiap.arkive.dto.response.ClinicalSupportResponseTest" time="0.004" />
+</testsuite>

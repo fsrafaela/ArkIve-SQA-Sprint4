@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.exception.GlobalExceptionHandlerTest" time="0.116" tests="4" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="accessDeniedRetornaForbidden" classname="br.com.fiap.arkive.exception.GlobalExceptionHandlerTest" time="0.034" />
+  <testcase name="metodoNaoSuportadoRetornaMethodNotAllowed" classname="br.com.fiap.arkive.exception.GlobalExceptionHandlerTest" time="0.003" />
+  <testcase name="propriedadeDeOrdenacaoInvalidaRetornaBadRequestControlado" classname="br.com.fiap.arkive.exception.GlobalExceptionHandlerTest" time="0.052" />
+  <testcase name="validacaoRetornaMapaDeCampos" classname="br.com.fiap.arkive.exception.GlobalExceptionHandlerTest" time="0.026" />
+</testsuite>

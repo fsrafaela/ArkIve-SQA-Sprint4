@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.notification.ExpoPushClientTest" time="0.093" tests="5" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="identificaDeviceNotRegisteredNoTicketImediato" classname="br.com.fiap.arkive.service.notification.ExpoPushClientTest" time="0.045" />
+  <testcase name="timeoutOuErroDeRedeNaoEscapaDoCliente" classname="br.com.fiap.arkive.service.notification.ExpoPushClientTest" time="0.002">
+    <system-out><![CDATA[18:58:17.296 [main] WARN br.com.fiap.arkive.service.notification.ExpoPushClient -- Expo Push indisponivel por timeout ou falha de conexao.
+]]></system-out>
+  </testcase>
+  <testcase name="interpretaTicketComSucesso" classname="br.com.fiap.arkive.service.notification.ExpoPushClientTest" time="0.018" />
+  <testcase name="falhasHttpERespostaInvalidaSaoConvertidasEmFalhaSegura" classname="br.com.fiap.arkive.service.notification.ExpoPushClientTest" time="0.023">
+    <system-out><![CDATA[18:58:17.325 [main] WARN br.com.fiap.arkive.service.notification.ExpoPushClient -- Expo Push respondeu com HTTP 429.
+18:58:17.330 [main] WARN br.com.fiap.arkive.service.notification.ExpoPushClient -- Expo Push respondeu com HTTP 500.
+18:58:17.334 [main] WARN br.com.fiap.arkive.service.notification.ExpoPushClient -- Expo Push respondeu com HTTP 400.
+18:58:17.339 [main] WARN br.com.fiap.arkive.service.notification.ExpoPushClient -- Expo Push retornou quantidade inesperada de tickets.
+]]></system-out>
+  </testcase>
+  <testcase name="desabilitadoNaoExecutaHttp" classname="br.com.fiap.arkive.service.notification.ExpoPushClientTest" time="0.002" />
+</testsuite>

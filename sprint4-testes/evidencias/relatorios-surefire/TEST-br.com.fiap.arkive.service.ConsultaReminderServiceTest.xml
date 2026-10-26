@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.ConsultaReminderServiceTest" time="0.035" tests="4" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="consultaMalformadaEhIsoladaSemCriarDestinatarioAlternativo" classname="br.com.fiap.arkive.service.ConsultaReminderServiceTest" time="0.023">
+    <system-out><![CDATA[18:58:15.921 [main] WARN br.com.fiap.arkive.service.ConsultaReminderService -- Consulta agendada ignorada no lembrete por dados obrigatorios ausentes.
+]]></system-out>
+  </testcase>
+  <testcase name="contaVeterinariaInativaEhIgnoradaSemImpedirOutraConsulta" classname="br.com.fiap.arkive.service.ConsultaReminderServiceTest" time="0.008">
+    <system-out><![CDATA[18:58:15.923 [main] WARN br.com.fiap.arkive.service.ConsultaReminderService -- Consulta 1 sem conta veterinaria ativa vinculada para lembrete.
+]]></system-out>
+  </testcase>
+  <testcase name="contaSomenteNotificacoesNovasQuandoExecucaoEhRepetida" classname="br.com.fiap.arkive.service.ConsultaReminderServiceTest" time="0.0" />
+  <testcase name="usaRelogioDeNegocioEJanelaPadraoDeTrintaMinutos" classname="br.com.fiap.arkive.service.ConsultaReminderServiceTest" time="0.001" />
+</testsuite>

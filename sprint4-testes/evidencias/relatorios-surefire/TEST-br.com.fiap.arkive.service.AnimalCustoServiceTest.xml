@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.com.fiap.arkive.service.AnimalCustoServiceTest" time="0.164" tests="10" errors="0" skipped="0" failures="0" flakes="0">
+  <testcase name="responsavelAutorizadoMantemVisaoFinanceiraCompletaDoPaciente" classname="br.com.fiap.arkive.service.AnimalCustoServiceTest" time="0.145" />
+  <testcase name="agregaSomenteValorDaConsulta" classname="br.com.fiap.arkive.service.AnimalCustoServiceTest" time="0.002" />
+  <testcase name="agregaConsultaEMultiplasPrescricoesSemMisturarConceitos" classname="br.com.fiap.arkive.service.AnimalCustoServiceTest" time="0.001" />
+  <testcase name="agregaMultiplasConsultasIgnoraNulosEOrdenaMaisRecentesPrimeiro" classname="br.com.fiap.arkive.service.AnimalCustoServiceTest" time="0.003" />
+  <testcase name="somenteFiEConsultasVisiveisContribuemAosTotais" classname="br.com.fiap.arkive.service.AnimalCustoServiceTest" time="0.002" />
+  <testcase name="semCustosRetornaTotaisZeroEHistoricoNuloPermaneceNulo" classname="br.com.fiap.arkive.service.AnimalCustoServiceTest" time="0.002" />
+  <testcase name="veterinarioUsaAgregacaoRestritaAsPropriasConsultas" classname="br.com.fiap.arkive.service.AnimalCustoServiceTest" time="0.003" />
+  <testcase name="zeroRegistradoContaComoValorInformado" classname="br.com.fiap.arkive.service.AnimalCustoServiceTest" time="0.002" />
+  <testcase name="agregaSomenteValorDeMedicamento" classname="br.com.fiap.arkive.service.AnimalCustoServiceTest" time="0.002" />
+  <testcase name="reutilizaAutorizacaoDeLeituraDoAnimal" classname="br.com.fiap.arkive.service.AnimalCustoServiceTest" time="0.001" />
+</testsuite>
