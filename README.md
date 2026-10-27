@@ -16,7 +16,7 @@
 
 \- \*\*Acesso ao projeto no Azure DevOps:\*\* https://dev.azure.com/RM561671/ArkIve
 
-\- \*\*Plano de testes:\*\* https://dev.azure.com/RM561671/ArkIve/\_testPlans/define?planId=174
+\- \*\*Plano de testes:\*\* https://dev.azure.com/RM561671/ArkIve/\_testPlans/execute?planId=174
 
 \- Cada PBI tem pelo menos 2 casos de teste (`PBI<ID>-CT01` e `CT02`), com objetivo (Summary), passos, dados de entrada e resultado esperado, usando parâmetros `@nome` e a tabela de Parameter values.
 
